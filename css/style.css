@@ -76,7 +76,7 @@ button {
 }
 h2 {
     text-align: center;
-    padding: 8.5% 0 5.5%;
+    padding: 7.5% 0 5.5%;
     margin: 0;
 }
 h2 a{
@@ -162,8 +162,11 @@ h2 a{
 }
 .client-pack {
     max-width: 528px;
-    padding: 0 1.2% 0 0.6%;
+    padding: 0 5% 0 0.6%;
     margin-bottom: 15%;
+}
+.client-pack:last-child {
+    padding: 0;
 }
 .client-pack:before {
     content: '';
@@ -176,7 +179,7 @@ h2 a{
     font-size: 18px;
     color: rgb(188, 188, 188);
     line-height: 1.833;
-    margin: 0 0 34px;
+    margin: 0 0 23px;
 }
 
 .client {
