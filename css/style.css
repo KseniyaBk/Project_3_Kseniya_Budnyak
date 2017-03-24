@@ -165,7 +165,8 @@ h2 a{
     padding: 0 1.2% 0 0.6%;
     margin-bottom: 15%;
 }
-.client-pack span {
+.client-pack:before {
+    content: '';
     display: inline-block;
     background: url(../images/quotation_marks.png)center center no-repeat;
     width:24px;
