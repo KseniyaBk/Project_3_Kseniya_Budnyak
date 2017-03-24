@@ -215,19 +215,23 @@ footer .container {
 }
 .contact-box h3 {
     text-align: center;
+    margin: 0 0;
 }
 .contact-box h3 a{
     font-size: 36px;
     color: #36AEEA;
     line-height: 1.2;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .contact-box p {
     font-size: 16px;
-
     color: #383e4a;
-    font-weight: bold;
     line-height: 1.2;
     text-align: center;
+    color: #383e4a;
+    margin: 6px 0 34px;
 }
 .form-box {
     text-align: center;
@@ -235,6 +239,10 @@ footer .container {
 input[type=text],
 input[type=email],
 input[type=submit]{
+    font-size: 17px;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-weight: 400;
+    color: #000;
     width: 100%;
     border-radius: 4px;
     padding-bottom: 20px;
@@ -242,6 +250,7 @@ input[type=submit]{
     padding-top: 18px;
     margin-bottom: 20px;
     border:  none;
+    box-sizing: border-box;
 }
 input[type=submit] {
     background-color: rgb(54, 174, 234);
@@ -256,13 +265,13 @@ input[type=submit] {
 .popup-wrap {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 0;
     left: 0;
     display: none;
 }
 .popup {
+    padding: 32px 30px 50px;
     width: 100%;
     box-sizing: border-box;
     position: absolute;
@@ -271,7 +280,13 @@ input[type=submit] {
     background: rgba(255, 255, 255, 0.8);
 }
 .popup-close {
-
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
 }
 /*****************adaptability****************/
 @media screen and (min-width: 700px){
@@ -294,7 +309,7 @@ input[type=submit] {
         padding: 0 13px;
     }
     .popup{
-        top: 15%;
+        top: 24.4%;
         left: 33%;
     }
     .popup #popup-close {
