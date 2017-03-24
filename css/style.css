@@ -186,6 +186,7 @@ h2 a{
 }
 .client-pack .wrap img{
     float: left;
+    border-radius: 50%;
 }
 .client-pack .wrap p{
     float: left;
