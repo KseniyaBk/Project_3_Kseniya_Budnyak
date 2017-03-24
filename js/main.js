@@ -19,3 +19,5 @@ $('#popup-close').click(function(){
     $('.popup-wrap').hide('slow')
 });
 
+smoothScroll.init();
+
